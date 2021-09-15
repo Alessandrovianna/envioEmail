@@ -19,7 +19,7 @@ if(isset($_POST['nome']) && !empty($_POST['nome'])) {
 
 }
 ?>
-<form action="" method="POST">
+<form action="" method="POST" data-netlify="true">
 
     Nome:<br>
     <input type="text" name="nome" /><br><br>
